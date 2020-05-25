@@ -1,0 +1,12 @@
+
+server:
+  port: 2801
+
+spring:
+  application:
+    name: cloud-eureka-client-user   #实际工程这里应该事服务的名字
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1800/eureka/

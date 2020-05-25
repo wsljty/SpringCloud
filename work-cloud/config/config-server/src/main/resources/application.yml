@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: config-client
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/wsljty/config
+          username:
+          password:
+          search-paths: conf
+          default-label: master
+
+
+server:
+  port: 18000
